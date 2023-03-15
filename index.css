@@ -1,20 +1,21 @@
-
-
-<div id="My Project">
-       <div id="my logo"></div>
-       <div class="logo"></div>
-       <img src="./Images/logo.png" alt="Images">
-   <div id="home menu">
-    <div class="home page">
-        <p>Home</p>
-    </div>
-    <div id="about menu">
-    <div class="home page">
-        <p>About</p>
-    </div>
-    <div id="blog menu">
-    <div class="home page">
-        <p>Blog</p>
-    </div>
-   </div>
-   </div>
+body {
+    margin: 0;
+    margin-top: 50px;
+}
+header {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 40px;
+    line-height: 50px;
+    background-color: #eee;
+}
+header * {
+    display: inline;
+    height: 50px;
+}
+header ul {
+padding: 0;
+}

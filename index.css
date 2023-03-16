@@ -1,21 +1,19 @@
-body {
-    margin: 0;
-    margin-top: 50px;
+.home-page {
+    background-color: #313544;
 }
-header {
+.skills {
+    /* background-color: #227237246; */
+}
+.logo {
+    /* height: 20px; */
+    
+}
+.menu {
     display: flex;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 40px;
-    line-height: 50px;
-    background-color: #eee;
+    list-style: none;
+    justify-content: center;
+    
 }
-header * {
-    display: inline;
-    height: 50px;
-}
-header ul {
-padding: 0;
-}
+
+
+

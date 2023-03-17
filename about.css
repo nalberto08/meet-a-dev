@@ -1,0 +1,55 @@
+.about-page {
+    background-color: #313544;
+}
+.my-education {
+    background-color: aliceblue;
+}
+
+.nav-bar {
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+    position: sticky;    
+}
+.nav-bar ul {
+    margin-left: 400px;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: center;
+    padding: 3px;
+}
+.nav-bar ul a{
+    padding-left: 60px;
+    color: white;
+}
+.about {
+    display: flex;
+    justify-content: space-around;
+}
+.about-me h4 {
+    color: white;
+    padding-left: 100px;
+}
+.about-me p{
+    color: white;
+    padding-left: 100px;
+    margin: 2px;
+}
+.picture img {
+    padding-left: 250px;
+    height: 500px;
+    padding-top: 40px;
+}
+.about-me {
+    padding-left: 40px;
+}
+.education h3{
+    padding-left: 16git 0px;
+}
+.education ul{
+    padding-left: 200px;
+}
+.education {
+    padding-top: 40px;
+}

@@ -2,18 +2,84 @@
     background-color: #313544;
 }
 .skills {
-    /* background-color: #227237246; */
+    background-color: aliceblue;
+    margin: 1px;
+    padding: 1px;
 }
-.logo {
-    /* height: 20px; */
-    
+.nav-bar {
+    display: flex;   
+    flex-direction: row; 
+    align-items: center;
+    position: sticky;
 }
-.menu {
+.menu ul{
+    margin-left: 460px;
     display: flex;
+    flex-direction: row;
     list-style: none;
     justify-content: center;
+    padding: 5px;}
+    
+
+.menu ul a{
+     padding-right: 80px;
+    }
+     
+.picture{
+    display:block;
+}
+.picture img {
+    padding-left: 350px;
+    height: 400px; 
+    padding-top: 0px; 
+    padding-bottom: 0px;
     
 }
+.info p{    
+    justify-content: left;
+    text-align: justify;
+    color: white;
+    padding-left: 100px; 
+    margin: 2px;  
+}
+.info h4 {
+    padding-left: 100px;
+    color: white;
+}
+    
+.nav-bar li a{
+    color: white;
+    justify-content: left;
+}
+.skills {
+    display: flex;
+    justify-content: space-around;
+}
+.technical {
+    padding-top: 75px;
+}
+.professional {
+    padding-top: 30px;
+}
+.Info {
+    display: flex;
+}
 
-
-
+.talk{
+    border:1px solid black;
+    background:white;
+    width:150px;
+    align-items: right;
+    margin-left:450px;
+    height: 5px;
+    display: flex;
+    padding-bottom: 35px;
+    
+    
+}
+.talk img {
+    height: 20px;
+    padding: 0px 0px 0px 0px;
+    padding-top: 15px;
+    padding-left: 5px;
+}

@@ -77,13 +77,12 @@
     margin-left:450px;
     height: 5px;
     display: flex;
-    padding-bottom: 40px;  
-    
-    
+    padding-bottom: 40px;     
 }
 .talk p{
     margin-top: -20px;
     margin-left:30px;
+    color: black;
 }
 .talk img {
     height: 20px;

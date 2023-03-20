@@ -1,0 +1,51 @@
+.talk-page {
+    background-color: #313544;
+}
+.nav-bar {
+    display: flex;
+}
+.nav-bar ul {
+    display: flex;
+    list-style: none;
+    margin-left: 340px;
+    justify-content: center;
+}
+.nav-bar ul a {
+    color: white;
+    padding-left: 80px;
+    font-size: 20px;
+}
+.contact-me img {
+    height: 25px;
+    
+}
+.contact-me p {
+    color: white;
+    padding-left: 350px;
+    font-size: 24px;
+}
+.contact h3{
+    color: white;
+    font-size: 26px;
+    padding-left: 340px;
+    padding-top: 50px;
+}
+.send-msg p{
+    padding-left: 340px;
+    font-size: 24px;
+    color: white;
+}
+.send-msg form {
+    padding-left: 500px;
+    padding-bottom: 20px;
+}
+.send-msg form button {
+    height: 30px;
+    padding: 0px 20px;
+    background-color: rgba(242, 122, 75);
+    color: white;
+    margin-left: 95px;    
+}
+.form input {
+    height: 22px;
+}

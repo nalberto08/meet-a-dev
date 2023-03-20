@@ -22,12 +22,13 @@
 .nav-bar ul a{
     padding-left: 60px;
     color: white;
+    font-size: 20px;
 }
 .about {
     display: flex;
     justify-content: space-around;
 }
-.about-me h4 {
+.about-me h3 {
     color: white;
     padding-left: 100px;
 }
@@ -38,17 +39,17 @@
 }
 .picture img {
     padding-left: 250px;
-    height: 500px;
+    height: 350px;
     padding-top: 40px;
 }
 .about-me {
     padding-left: 40px;
 }
 .education h3{
-    padding-left: 16git 0px;
+    padding-left: 170px;
 }
 .education ul{
-    padding-left: 200px;
+    padding-left: 270px;
 }
 .education {
     padding-top: 40px;

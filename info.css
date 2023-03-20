@@ -1,0 +1,28 @@
+.main {
+    background-color: #313544;
+}
+.nav-bar {
+    display: flex;
+}
+.nav-bar ul {
+    display: flex;
+    margin-left: 400px;
+    list-style: none;
+    justify-content: center;    
+}
+.nav-bar ul a {
+    color: white;
+    padding: 30px;
+    font-size: 20px;
+}
+.more-info {
+    padding-left: 300px;
+}
+.more-info h3 {
+    font-size: 25px;
+    color: white;
+}
+.more-info p {
+    font-size: 20px;
+    color: white;
+}
